@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background-color: rgb(133, 216, 66);
+}
+h1[head] {
+  background-color: red;
+}
+.dropdown {
+    padding: 20px;
+    font-size: 20px;
+    border: initial;
+    }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(36, 35, 35, 0.2);
+    z-index: 1;
+    text-align: center;
+  }
+  .dropdown-content a:hover {background-color: rgb(226, 217, 217);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+h1,h2{
+    text-align: center;
+    text-decoration: double;
+}
+/* unvisited link */
+a:link {
+  color: rgb(191, 19, 117);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(194, 85, 132);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(119, 6, 96);
+}
+
+/* selected link */
+a:active {
+  color: rgb(88, 36, 72);
+}
+  main.img {
+    width: 350px;
+    height: 300px;
+}
+section.t-rex{
+  text-decoration: underline;
+  font-style: italic;
+}
+section.stego{
+  font-style: italic;
+}
+section.indo{
+  font-style: oblique;
+}
+section.tric{
+  font-style: italic;
+}
+section.blue{
+  text-decoration: underline;
+}
+#t-rex{
+ border: dashed yellow;
+}
+section h2:first-child{
+  color: aqua;
+}
+h2:first-of-type{
+  background: red;
+}
+p::first-letter{
+  font-size: 200%;
+  color: red;
+}
+p::first-line{
+  text-decoration: dashed;
+  text-align: left;
+}
+.blue{
+  text-align: left;
+  color: rgb(129, 8, 242);
+}
+.indo{
+  border: dashed aqua;
+  color: rgb(226, 137, 28);
+}
+.stego{
+  border: solid rgb(129, 8, 242);
+  color: aquamarine;
+}
+.t-rex{
+  color: blue;
+}
+form{
+  text-align: center;
+}
+footer>p {
+  text-align: center;
+}
