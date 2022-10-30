@@ -112,3 +112,21 @@ form{
 footer>p {
   text-align: center;
 }
+p.tyrx {
+  margin-bottom: 40px;
+}
+div.s{
+  line-height: 1.8;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 2.40em;
+}
+img{
+  display: block;
+}
+h1{
+  margin: 25px 20px 35px 0px;
+}
